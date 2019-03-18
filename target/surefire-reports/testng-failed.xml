@@ -3,19 +3,9 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="test.java.AddToCartWeaveSocksTest">
-        <methods>
-          <include name="AddToCartBasicFlow"/>
-          <include name="afterclass"/>
-          <include name="afterTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.java.AddToCartWeaveSocksTest -->
       <class name="test.java.CheckOutWeaveSocksTest">
         <methods>
           <include name="CheckOutTestAlternativeFlow1"/>
-          <include name="CheckOutTestAlternativeFlow2"/>
-          <include name="CheckOutTestBasicFlow"/>
           <include name="afterclass"/>
           <include name="setUp"/>
         </methods>
